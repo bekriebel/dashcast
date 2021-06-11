@@ -13,16 +13,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/madmod/dashcast.git"
+    "url": "git+https://github.com/bekriebel/dashcast.git"
   },
   "keywords": [
     "chromecast",
     "dashboard"
   ],
   "author": "madmod <madmodmail@gmail.com> (https://github.com/madmod)",
+  "contributors": [
+    {
+      "name": "Brint E. Kriebel",
+      "email": "dashcast@bekit.net",
+      "url": "https://bekit.net"
+    }
+  ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/madmod/dashcast/issues"
+    "url": "https://github.com/bekriebel/dashcast/issues"
   },
-  "homepage": "https://github.com/madmod/dashcast#readme"
+  "homepage": "https://github.com/bekriebel/dashcast#readme"
 }

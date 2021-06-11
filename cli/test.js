@@ -7,10 +7,10 @@ nodecastor.scan()
       d.status(function(err, s) {
         if (err) return console.error(err);
         console.log('Chromecast status', util.inspect(s));
-        d.application('84912283', function(err, a) {
+        d.application('661401DA', function(err, a) {
           if (err) return console.error(err);
           console.log('Application', util.inspect(a));
-          a.run('urn:x-cast:com.madmod.dashcast', function(err, s) {
+          a.run('urn:x-cast:net.bekit.dashcast', function(err, s) {
             if (err) return console.error(err);
             s.send({ url: "http://codepen.io/fleeting/full/xklfq/" });
           });
